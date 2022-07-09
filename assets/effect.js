@@ -154,12 +154,12 @@ $('document').ready(function(){
 		$('#b22').animate({top:200, left: vw-250},500);
 		$('#b33').animate({top:200, left: vw-150},500);
 		$('#b44').animate({top:200, left: vw-50},500);
-		$('#b55').animate({top:200, left: vw+50},500);
-		$('#b66').animate({top:200, left: vw+150},500);
-		$('#b77').animate({top:200, left: vw+250},500);
+		$('#b55').animate({top:100, left: vw+50},500);
+		$('#b66').animate({top:150, left: vw+150},500);
+		$('#b77').animate({top:150, left: vw+250},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(2000);
-		$(this).fadeOut('slow').delay(2000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
